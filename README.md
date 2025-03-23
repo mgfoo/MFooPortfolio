@@ -1,5 +1,4 @@
 # Michaela's Portfolio
-Website Link: https://mgfoo.github.io/PersonalPortfolio/
 Using MIT License for this assignment due to its compatibility with many other open-source licenses. There is a disclaimer that helps minimize legal repercussions if another person uses this code. The main reason is that it is a simply license that I am able to understand use to integrate into my project.
 
 Project Overview: A way to showcase my technical projects
