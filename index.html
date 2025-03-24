@@ -32,9 +32,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </a>
   <div class="w3-bar-block w3-center">
     <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#a-peek" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">A Peek into My Life</a>
     <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#services" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Services</a>
+    <a href="#services" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Technical Projects</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Experience</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
   </div>
@@ -49,38 +48,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Michaela Foo</b></h1>
-    <p>Computer Science Student at Simon Fraser University</p>
+    <p>B.Sc Candadite at Simon Fraser University</p>
 
           <img src="Photos\professionalphotosfu.jpg"  style="width:25%;margin:auto;">   
 <a href="MichaelaFoo_resume.pdf" download="MichaelaFoo_resume">
   <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
     <i class="fa fa-download"></i> Download Resume
   </button>
+  <a href = "github.com/mgfoo" class="fa fa-robot w3-hover-opacity"></a>
+  <a href = "linkedin.com/in/michaelafoo"class="fa fa-linkedin w3-hover-opacity"></a>
 </a>
 
   </header>
-
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="a-peek">
-    <h2 class="w3-text-grey">A Peek into My Life</h2>
-    <hr class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="Photos/7117Lolo&LolaPhoto.jpg" style="width:100%">
-        <img src="Photos/selfieJie&ICabo.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="Photos/teamHuddlePenguwins.jpg" style="width:100%">
-        <img src="Photos/meAndTotoSunset.jpg" style="width:100%">
-        
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
@@ -92,10 +71,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         any technological issues they are having. This role allows me to blend my technical skills with effective communication, ensuring that IT challenges are addressed and resolved with great customer service and efficiency. 
         Feel free to explore this website as it showcases my work experience and technical projects. 
     </p>
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <img src="Photos/7117Lolo&LolaPhoto.jpg" style="width:100%">
+              <img src="Photos/selfieJie&ICabo.jpg" style="width:100%">
+            </div>
+      
+            <div class="w3-half">
+              <img src="Photos/teamHuddlePenguwins.jpg" style="width:100%">
+              <img src="Photos/meAndTotoSunset.jpg" style="width:100%">
+              
+            </div>
+          <!-- End photo grid -->
+          </div>
     </div>
     
   <!-- End About Section -->
-<!-- services section-->
 <!-- services section-->
 <section id="services">
     <div class="container-fluid">
@@ -108,8 +100,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                         <i class='fas servicesIcon fa-layer-group'></i>
                         <h4 class="card-title mt-2">Travel Companion Hub</h4>
                         <p class="card-text mt-2">
-                            - Designed and implemented a full-stack web application using React.js, CSS, and Java, integrating APIs for real-time data retrieval. 
-                            - Utilized browser developer tools, logging frameworks, and error tracking systems to diagnose root causes, improving frontend-backend data handling.
+                            - Designed and implemented a full-stack web application using React.js, CSS, and Java, integrating APIs for real-time data retrieval.<br>
+                            - Utilized browser developer tools, logging frameworks, and error tracking systems to diagnose root causes, improving frontend-backend data handling.<br>
                             - Emphasized system scalability and maintainability, balancing user needs with technical constraints.
                         </p>
                         <div class="mt-auto text-center">
@@ -126,7 +118,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                         <h4 class="card-title mt-2">Classification Machine Learning</h4>
                         <p class="card-text mt-2">
                             - Built and evaluated Perceptron, MIRA, and Naïve Bayes classifiers for handwritten digit classification tasks. 
-                            - Tuned training iterations and feature extraction strategies to improve validation accuracy and generalization on test data.
+                            <br>- Tuned training iterations and feature extraction strategies to improve validation accuracy and generalization on test data.
                         </p>
                         <div class="mt-auto text-center">
                             <a href="https://github.com/mgfoo/classifiedMachineLearning" class="btn btn-success">Link To Git Repo</a>
@@ -142,7 +134,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                         <h4 class="card-title mt-2">Analyze Canadian Grocery Price Trends</h4>
                         <p class="card-text mt-2">
                            - Extracted and visualized data using SQL and Python to identify geographic and demographic pricing patterns.
-                            - Optimized query performance and handled large datasets to ensure data integrity and maintainable workflows.
+                           <br>- Optimized query performance and handled large datasets to ensure data integrity and maintainable workflows.
                         </p>
                         <div class="mt-auto text-center">
                             <a href="https://github.com/mgfoo/canadianGroceryTrends" class="btn btn-success">Link To Git Repo</a>
@@ -158,7 +150,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                         <h4 class="card-title mt-2">Gridworld Reinforcement Learning Agents</h4>
                         <p class="card-text mt-2">
                             - Developed agents using Value Iteration, Prioritized Sweeping, and Q-Learning, applying dynamic programming and temporal-difference methods to solve Markov Decision Processes (MDPs).
-                            - Tuned exploration, learning, and reward parameters to influence policy behavior; validated performance through simulation, visualization, and autograder testing.
+                            <br>- Tuned exploration, learning, and reward parameters to influence policy behavior; validated performance through simulation, visualization, and autograder testing.
                         </p>
                         <div class="mt-auto text-center">
                             <a href="https://github.com/mgfoo/gridworldReinforcementLearning" class="btn btn-success">Link To Git Repo</a>
@@ -176,7 +168,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
    <!-- portfolio section -->
 <section id="portfolio">
     <div class="container mt-3">
-        <h1 class="text-center">Experience</h1>
+        <h1 class="text-center">Technical Experiences</h1>
 
         <div class="row">
             <!-- Card 1 -->
@@ -185,9 +177,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                     <img class="card-img-top" src="ePhotos/sfu.jpg" alt="SFU image" style="width:100%">
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">IT Service Desk and Audio Visuual Technician</h4>
-                        <p class="card-text">Simon Fraser University; Provides comprehensive customer service and maintains client satisfaction with IT service delivery.</p>
+                        <p class="card-text">Simon Fraser University; Provided technical support and troubleshooting for IT services and audio-visual equipment across campus environments.</p>
                         <div class="mt-auto text-center">
-                            <p class="time">Apr 2023 - Present · 8 mos</p>
+                            <p class="time">Apr 2023 - Present </p>
                             <a href="https://www.sfu.ca/information-systems.html" class="btn btn-success">Link</a>
                         </div>
                     </div>
@@ -200,7 +192,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                     <img class="card-img-top" src="ePhotos/ce.jpg" alt="Conquer Experience" style="width:100%">
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">QA/Expository Testing</h4>
-                        <p class="card-text">Conquer Experience; Responsible for product quality assurance.</p>
+                        <p class="card-text">Conquer Experience; Conducted software testing and reported bugs to ensure product quality, functionality, and reliability prior to release.</p>
                         <div class="mt-auto text-center">
                             <p class="time">Jun 2020 - Dec 2022 · 2 yrs 7 mos</p>
                             <a href="https://conquerexperience.com/" class="btn btn-success">Link</a>
@@ -209,21 +201,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 </div>
             </div>
 
-            <!-- Card 3 -->
-            <div class="col-lg-4 mt-4 d-flex">
-                <div class="card portfolioContent w-100 d-flex flex-column">
-                    <img class="card-img-top" src="ePhotos/brightideas.png" alt="Bright Ideas" style="width:100%">
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">Co-Founder, Toted</h4>
-                        <p class="card-text">SFU Bright Idea Program; Created eco-friendly, upcycled bubble tea holders and tote bags.</p>
-                        <div class="mt-auto text-center">
-                            <p class="time">Jan 2020 - May 2020 · 5 mos</p>
-                            <a href="https://www.brightideassfu.com/" class="btn btn-success">Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <br>
 
@@ -234,7 +212,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                     <img class="card-img-top" src="ePhotos/wc.png" alt="West Coast" style="width:100%">
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">Harbour Air Ambassador</h4>
-                        <p class="card-text">Grey Line West Coast Sightseeing; Sold tickets for transport and entertainment services.</p>
+                        <p class="card-text">Grey Line West Coast Sightseeing; Assisted customers and processed ticket sales for transportation and entertainment services</p>
                         <div class="mt-auto text-center">
                             <p class="time">Aug 2018 - Sep 2019 · 1 yr 2 mos</p>
                             <a href="https://westcoastsightseeing.com/" class="btn btn-success">Link</a>
@@ -249,7 +227,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                     <img class="card-img-top" src="ePhotos/appcamp.jpg" alt="App Camp" style="width:100%">
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">Intern</h4>
-                        <p class="card-text">App Camp for Girls; Taught middle school students how to develop their own applications.</p>
+                        <p class="card-text">App Camp for Girls; Instructed middle school students in application development, guiding them through the fundamentals of programming and software design.</p>
                         <div class="mt-auto text-center">
                             <p class="time">Jul 2016 - Aug 2016 · 2 mos</p>
                             <a href="https://www.linkedin.com/company/app-camp-for-girls/" class="btn btn-success">Link</a>
@@ -258,21 +236,70 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 </div>
             </div>
 
-            <!-- Card 6 -->
-            <div class="col-lg-4 mt-4 d-flex">
-                <div class="card portfolioContent w-100 d-flex flex-column">
-                    <img class="card-img-top" src="ePhotos/BFF.jpg" alt="BFF" style="width:100%">
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">Volunteer Foster</h4>
-                        <p class="card-text">Barney's Furry Friends; Fostered rescue dogs from shelters in California, USA.</p>
-                        <div class="mt-auto text-center">
-                            <p class="time">Jul 2023 - Present · 4 mos</p>
-                            <a href="https://www.instagram.com/barneysfurryfriends/?img_index=1" class="btn btn-success">Link</a>
-                        </div>
+            
+    </div>
+    <div class="container mt-3">
+        <h1 class="text-center">Other Experiences</h1>
+        <!-- Card 1 -->
+        <div class="col-lg-4 mt-4 d-flex">
+            <div class="card portfolioContent w-100 d-flex flex-column">
+                <img class="card-img-top" src="ePhotos/BFF.jpg" alt="BFF" style="width:100%">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title">Volunteer Foster</h4>
+                    <p class="card-text">Barney's Furry Friends; Provided temporary care and rehabilitation for rescue dogs from California shelters, supporting their transition to permanent homes.</p>
+                    <div class="mt-auto text-center">
+                        <p class="time">Jul 2023 - Present </p>
+                        <a href="https://www.instagram.com/barneysfurryfriends/?img_index=1" class="btn btn-success">Link</a>
                     </div>
                 </div>
             </div>
         </div>
+
+<!-- Card 2 -->
+                <div class="col-lg-4 mt-4 d-flex">
+                    <div class="card portfolioContent w-100 d-flex flex-column">
+                        <img class="card-img-top" src="ePhotos/sfu.jpg" alt="BFF" style="width:100%">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title">Social Media Manager</h4>
+                            <p class="card-text">SFU Volleyball Club; Managed social media presence and coordinated content creation to enhance engagement and promote team events.</p>
+                            <div class="mt-auto text-center">
+                                <p class="time">Mar 2022 - Sept 2023 · 1 yr 6 mos  </p>
+                                <a href="https://www.instagram.com/sfuclubvball/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- Card 3-->
+                <div class="col-lg-4 mt-4 d-flex">
+                    <div class="card portfolioContent w-100 d-flex flex-column">
+                        <img class="card-img-top" src="ePhotos/codeInitiative.png" alt="BFF" style="width:100%">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title">STEM Tutor – App Development</h4>
+                            <p class="card-text">Code Initiative; Tutored students in application development using Python and Java.</p>
+                            <div class="mt-auto text-center">
+                                <p class="time">Jan 2022 - July 2022 · 7 mos  </p>
+                                <a href="https://www.instagram.com/sfuclubvball/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  <!-- Card 4 -->
+                                    <div class="col-lg-4 mt-4 d-flex">
+                                        <div class="card portfolioContent w-100 d-flex flex-column">
+                                            <img class="card-img-top" src="ePhotos/brightideas.png" alt="Bright Ideas" style="width:100%">
+                                            <div class="card-body d-flex flex-column">
+                                                <h4 class="card-title">Co-Founder, Toted</h4>
+                                                <p class="card-text">SFU Bright Idea Program; Created eco-friendly, upcycled bubble tea holders and tote bags.</p>
+                                                <div class="mt-auto text-center">
+                                                    <p class="time">Jan 2020 - May 2020 · 5 mos</p>
+                                                    <a href="https://www.brightideassfu.com/" class="btn btn-success">Link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    </div>
     </div>
 </section>
 
@@ -307,8 +334,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <a href = "www.linkedin.com/in/michaela-foo-767625182"class="fa fa-linkedin w3-hover-opacity"></a>
+    <a href = "github.com/mgfoo" class="fa fa-robot w3-hover-opacity"></a>
+    <a href = "linkedin.com/in/michaelafoo"class="fa fa-linkedin w3-hover-opacity"></a>
     <p class="w3-medium">Running on little sleep & coffee </p>
   <!-- End footer -->
   </footer>
